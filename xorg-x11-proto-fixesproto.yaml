@@ -1,0 +1,17 @@
+Name: xorg-x11-proto-fixesproto
+Summary: X.Org X11 Protocol fixesproto
+Version: 5.0
+Release: 0
+Group: Development/System
+Description: Xorg X11 Protocol fixesproto
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/fixesproto-%{version}.tar.bz2
+Patches:
+    - build-fix.patch
+
+Provides: fixesproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}

@@ -1,0 +1,9 @@
+diff --git a/fixesproto.pc.in b/fixesproto.pc.in
+index fabce86..454ed8d 100644
+--- a/fixesproto.pc.in
++++ b/fixesproto.pc.in
+@@ -7,4 +7,3 @@ Name: FixesProto
+ Description: X Fixes extension headers
+ Version: @PACKAGE_VERSION@
+ Cflags: -I${includedir}
+-Requires: xextproto >= 7.0.99.1
